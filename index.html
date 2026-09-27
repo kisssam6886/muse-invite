@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muse 邀请码 · WMFYLO</title>
+<meta name="description" content="兑换邀请码，双方各得 10 亿 Muse 代币。48 小时内在设置里填 WMFYLO。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Muse 邀请码 WMFYLO · 双方各得 10 亿代币">
+<meta property="og:description" content="加入 Muse 后 48 小时内到设置兑换我的邀请码 WMFYLO，我们双方各得 10 亿枚 Muse 代币。">
+<style>
+:root{
+  --bg:#FBFBFD; --card:#FFFFFF; --ink:#161619; --muted:#68686F; --faint:#9A9AA2;
+  --line:#ECECF1; --accent:#6D5AE6; --accent2:#9B6BF0; --amber:#B7791F; --amber-bg:#FBF3E3;
+  --ok:#2FA35E; --shadow:0 6px 30px rgba(20,18,40,.10); --code-fg:#FFFFFF;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){
+  --bg:#08080C; --card:#141419; --ink:#F3F3F6; --muted:#A0A0AA; --faint:#6E6E78;
+  --line:#24242E; --accent:#8C7BFF; --accent2:#B18BFF; --amber:#E9B762; --amber-bg:#241C10;
+  --ok:#54C98A; --shadow:0 8px 34px rgba(0,0,0,.55);
+}}
+:root[data-theme=dark]{
+  --bg:#08080C; --card:#141419; --ink:#F3F3F6; --muted:#A0A0AA; --faint:#6E6E78;
+  --line:#24242E; --accent:#8C7BFF; --accent2:#B18BFF; --amber:#E9B762; --amber-bg:#241C10;
+  --ok:#54C98A; --shadow:0 8px 34px rgba(0,0,0,.55);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","PingFang HK","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{background-image:radial-gradient(120% 60% at 82% -8%,rgba(109,90,230,.16),transparent 60%);background-attachment:fixed}
+a{color:inherit}
+.wrap{max-width:540px;margin:0 auto;padding:20px 18px 72px}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px}
+.brand{display:inline-flex;align-items:center;gap:9px;font-size:16px;font-weight:650}
+.brand .dot{width:26px;height:26px;border-radius:9px;background:linear-gradient(135deg,var(--accent),var(--accent2));
+  display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px}
+.langs{display:inline-flex;gap:3px;padding:3px;background:var(--card);border:1px solid var(--line);border-radius:999px}
+.langs button{border:none;background:transparent;color:var(--muted);font-size:13px;font-weight:600;
+  padding:6px 11px;border-radius:999px;cursor:pointer;font-family:inherit}
+.langs button[aria-selected=true]{background:var(--accent);color:#fff}
+h1{font-size:31px;line-height:1.18;font-weight:750;letter-spacing:-.02em;text-wrap:balance}
+h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede{margin-top:12px;font-size:16px;line-height:1.55;color:var(--muted)}
+.codecard{margin:24px 0 14px;padding:26px 22px 22px;border-radius:26px;position:relative;overflow:hidden;
+  background:linear-gradient(150deg,var(--accent),var(--accent2));color:#fff;box-shadow:var(--shadow);cursor:pointer;
+  -webkit-tap-highlight-color:transparent}
+.codecard:active{transform:scale(.992)}
+.codecard .k{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;opacity:.82}
+.codecard .code{margin:8px 0 4px;font-size:52px;line-height:1;font-weight:800;letter-spacing:.16em;
+  font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;display:flex;align-items:center;gap:14px}
+.codecard .cp{margin-left:auto;width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.18);
+  display:grid;place-items:center;flex:none}
+.codecard .cp svg{width:19px;height:19px}
+.codecard .tip{font-size:13.5px;opacity:.85;margin-top:8px}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.btn{height:52px;border-radius:16px;border:1px solid var(--line);background:var(--card);color:var(--ink);
+  font-size:15px;font-weight:650;display:inline-flex;align-items:center;justify-content:center;gap:8px;cursor:pointer;font-family:inherit;text-decoration:none}
+.btn svg{width:17px;height:17px}
+.btn.primary{grid-column:1/-1;height:56px;border:none;font-size:16px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 6px 20px rgba(109,90,230,.32)}
+.btn.primary:active,.btn:active{transform:translateY(1px)}
+.redeemrow{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;margin:14px 0}
+.qr{width:96px;height:96px;padding:9px;border-radius:16px;background:var(--card);border:1px solid var(--line);color:var(--ink);flex:none}
+.qr svg{width:100%;height:100%;display:block}
+.qrlab{font-size:12px;color:var(--faint);text-align:center;margin-top:5px}
+.callout{display:flex;gap:12px;align-items:flex-start;margin:18px 0;padding:15px 16px;border-radius:16px;
+  background:var(--amber-bg);border:1px solid color-mix(in srgb,var(--amber) 30%,transparent)}
+.callout .ic{flex:none;font-size:18px;line-height:1.3}
+.callout b{color:var(--amber)}
+.callout p{font-size:14px;line-height:1.5;color:var(--ink)}
+.sec{margin-top:34px}
+.sec h2{font-size:19px;font-weight:700;letter-spacing:-.01em;margin-bottom:14px}
+.step{display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--line)}
+.step:first-of-type{border-top:none;padding-top:2px}
+.step .n{flex:none;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-weight:700;font-size:14px;display:grid;place-items:center}
+.step .b{font-size:15px;line-height:1.5}
+.step .b b{font-weight:650}
+.step .b span{color:var(--muted)}
+.step code{font-family:ui-monospace,Menlo,monospace;background:var(--card);border:1px solid var(--line);border-radius:7px;padding:1px 7px;font-weight:700;letter-spacing:.08em}
+.rules{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:6px 18px}
+.rules .r{display:flex;gap:12px;padding:14px 0;border-top:1px solid var(--line);font-size:14.5px;line-height:1.5}
+.rules .r:first-child{border-top:none}
+.rules .r .t{flex:none;font-size:18px;width:24px;text-align:center}
+.rules .r b{font-weight:650}
+.rules .r span{color:var(--muted);display:block;margin-top:2px;font-size:13.5px}
+.foot{margin-top:30px;font-size:12.5px;color:var(--faint);line-height:1.6;text-align:center}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;pointer-events:none;
+  background:var(--ink);color:var(--bg);font-size:14px;font-weight:600;padding:12px 20px;border-radius:999px;
+  box-shadow:var(--shadow);transition:transform .28s cubic-bezier(.2,.8,.2,1),opacity .28s;z-index:20;display:flex;align-items:center;gap:8px}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.toast svg{width:16px;height:16px;color:var(--ok)}
+@media (max-width:400px){h1{font-size:27px}.codecard .code{font-size:44px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <span class="brand"><span class="dot">M</span><span data-t="brand">Muse 邀请码</span></span>
+    <div class="langs" role="tablist" aria-label="language">
+      <button data-lang="zh-CN" aria-selected="true">简</button>
+      <button data-lang="zh-TW" aria-selected="false">繁</button>
+      <button data-lang="en" aria-selected="false">EN</button>
+    </div>
+  </div>
+
+  <h1 data-t="h1"></h1>
+  <p class="lede" data-t="lede"></p>
+
+  <div class="codecard" id="codecard" role="button" tabindex="0" aria-label="copy code">
+    <div class="k" data-t="mycode"></div>
+    <div class="code">WMFYLO
+      <span class="cp" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg></span>
+    </div>
+    <div class="tip" data-t="taptocopy"></div>
+  </div>
+
+  <div class="btns">
+    <button class="btn" id="copyCode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><span data-t="copycode"></span></button>
+    <button class="btn" id="copyMsg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H7l-3 3z"/></svg><span data-t="copymsg"></span></button>
+    <a class="btn primary" id="openMuse" href="https://muse.ai/join" target="_blank" rel="noopener"><span data-t="openmuse"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></a>
+  </div>
+
+  <div class="redeemrow">
+    <div class="callout" style="margin:0">
+      <span class="ic">⏳</span>
+      <p><b data-t="warn_b"></b><span data-t="warn_p"></span></p>
+    </div>
+    <div>
+      <div class="qr"><svg viewBox="0 0 29 29" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" aria-label="muse.ai/join"><path d="M2 2h7v1h-7zM10 2h8v1h-8zM20 2h7v1h-7zM2 3h1v1h-1zM8 3h1v1h-1zM10 3h1v1h-1zM14 3h1v1h-1zM16 3h2v1h-2zM20 3h1v1h-1zM26 3h1v1h-1zM2 4h1v1h-1zM4 4h3v1h-3zM8 4h1v1h-1zM10 4h2v1h-2zM13 4h1v1h-1zM17 4h2v1h-2zM20 4h1v1h-1zM22 4h3v1h-3zM26 4h1v1h-1zM2 5h1v1h-1zM4 5h3v1h-3zM8 5h1v1h-1zM10 5h1v1h-1zM16 5h1v1h-1zM20 5h1v1h-1zM22 5h3v1h-3zM26 5h1v1h-1zM2 6h1v1h-1zM4 6h3v1h-3zM8 6h1v1h-1zM10 6h2v1h-2zM13 6h5v1h-5zM20 6h1v1h-1zM22 6h3v1h-3zM26 6h1v1h-1zM2 7h1v1h-1zM8 7h1v1h-1zM11 7h1v1h-1zM13 7h3v1h-3zM17 7h2v1h-2zM20 7h1v1h-1zM26 7h1v1h-1zM2 8h7v1h-7zM10 8h1v1h-1zM12 8h1v1h-1zM14 8h1v1h-1zM16 8h1v1h-1zM18 8h1v1h-1zM20 8h7v1h-7zM10 9h1v1h-1zM13 9h1v1h-1zM15 9h2v1h-2zM18 9h1v1h-1zM3 10h2v1h-2zM6 10h1v1h-1zM8 10h2v1h-2zM11 10h2v1h-2zM15 10h1v1h-1zM17 10h2v1h-2zM20 10h1v1h-1zM22 10h5v1h-5zM2 11h2v1h-2zM5 11h1v1h-1zM10 11h1v1h-1zM12 11h1v1h-1zM20 11h1v1h-1zM26 11h1v1h-1zM4 12h3v1h-3zM8 12h1v1h-1zM10 12h3v1h-3zM14 12h2v1h-2zM19 12h4v1h-4zM24 12h3v1h-3zM5 13h3v1h-3zM9 13h1v1h-1zM11 13h1v1h-1zM15 13h1v1h-1zM17 13h1v1h-1zM22 13h1v1h-1zM25 13h1v1h-1zM2 14h3v1h-3zM6 14h3v1h-3zM11 14h3v1h-3zM16 14h5v1h-5zM23 14h1v1h-1zM25 14h2v1h-2zM4 15h3v1h-3zM10 15h1v1h-1zM14 15h1v1h-1zM18 15h1v1h-1zM20 15h1v1h-1zM23 15h1v1h-1zM26 15h1v1h-1zM2 16h1v1h-1zM8 16h2v1h-2zM11 16h1v1h-1zM20 16h2v1h-2zM24 16h3v1h-3zM3 17h2v1h-2zM6 17h1v1h-1zM10 17h2v1h-2zM13 17h1v1h-1zM15 17h1v1h-1zM17 17h1v1h-1zM20 17h1v1h-1zM22 17h1v1h-1zM25 17h1v1h-1zM2 18h1v1h-1zM7 18h2v1h-2zM10 18h3v1h-3zM15 18h1v1h-1zM18 18h6v1h-6zM10 19h2v1h-2zM13 19h1v1h-1zM17 19h2v1h-2zM22 19h2v1h-2zM25 19h2v1h-2zM2 20h7v1h-7zM10 20h1v1h-1zM12 20h1v1h-1zM14 20h2v1h-2zM17 20h2v1h-2zM20 20h1v1h-1zM22 20h2v1h-2zM25 20h2v1h-2zM2 21h1v1h-1zM8 21h1v1h-1zM11 21h1v1h-1zM13 21h3v1h-3zM18 21h1v1h-1zM22 21h2v1h-2zM25 21h1v1h-1zM2 22h1v1h-1zM4 22h3v1h-3zM8 22h1v1h-1zM10 22h2v1h-2zM15 22h1v1h-1zM18 22h6v1h-6zM25 22h2v1h-2zM2 23h1v1h-1zM4 23h3v1h-3zM8 23h1v1h-1zM12 23h2v1h-2zM15 23h1v1h-1zM17 23h2v1h-2zM21 23h4v1h-4zM2 24h1v1h-1zM4 24h3v1h-3zM8 24h1v1h-1zM10 24h1v1h-1zM13 24h1v1h-1zM16 24h2v1h-2zM22 24h1v1h-1zM26 24h1v1h-1zM2 25h1v1h-1zM8 25h1v1h-1zM10 25h6v1h-6zM17 25h2v1h-2zM22 25h2v1h-2zM25 25h1v1h-1zM2 26h7v1h-7zM11 26h1v1h-1zM18 26h4v1h-4zM25 26h2v1h-2z" fill="currentColor"/></svg></div>
+      <div class="qrlab" data-t="scan"></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2 data-t="how"></h2>
+    <div class="step"><div class="n">1</div><div class="b"><b data-t="s1b"></b> <span data-t="s1s"></span></div></div>
+    <div class="step"><div class="n">2</div><div class="b"><b data-t="s2b"></b> <span data-t="s2s"></span></div></div>
+    <div class="step"><div class="n">3</div><div class="b"><span data-t="s3a"></span> <code>WMFYLO</code> <span data-t="s3b"></span></div></div>
+  </div>
+
+  <div class="sec">
+    <h2 data-t="rules"></h2>
+    <div class="rules">
+      <div class="r"><span class="t">🎁</span><div><b data-t="r1b"></b><span data-t="r1s"></span></div></div>
+      <div class="r"><span class="t">🔁</span><div><b data-t="r2b"></b><span data-t="r2s"></span></div></div>
+      <div class="r"><span class="t">👥</span><div><b data-t="r3b"></b><span data-t="r3s"></span></div></div>
+      <div class="r"><span class="t">⏳</span><div><b data-t="r4b"></b><span data-t="r4s"></span></div></div>
+    </div>
+  </div>
+
+  <p class="foot" data-t="foot"></p>
+</div>
+
+<div class="toast" id="toast"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><span id="toasttext"></span></div>
+
+<script>
+const CODE="WMFYLO";
+const I18N={
+ "zh-CN":{brand:"Muse 邀请码",h1:'试试 Muse，<em>双方各得 10 亿代币</em>',lede:"Muse 是 Meta 出的个人 AI 助理。用我的邀请码，你和我都能各自领 10 亿枚永久代币。",
+  mycode:"我的邀请码",taptocopy:"点这里复制邀请码",copycode:"复制邀请码",copymsg:"复制完整口令",openmuse:"打开 Muse 去兑换",
+  scan:"手机扫码打开",warn_b:"48 小时内兑换：",warn_p:"注册后超过 48 小时就领不到了，记得先兑换再慢慢玩。",
+  how:"怎么兑换",s1b:"打开 muse.ai/join 注册 / 登录。",s1s:"用邮箱或 Google 等登录都行。",
+  s2b:"进「设置 → 通用」。",s2s:"右上角头像或菜单里进设置。",s3a:"找到「兑换邀请码」，填",s3b:"，提交即到账。",
+  rules:"规则（都是官方的）",r1b:"双方各得 10 亿永久代币。",r1s:"你兑换我的码，你和我各自到账 10 亿，永久有效。",
+  r2b:"每个码最多用 30 次。",r2s:"用一次少一次，趁早兑换更稳。",r3b:"邀请人最多邀 20 人。",r3s:"累计最多 200 亿代币封顶。",
+  r4b:"48 小时时限。",r4s:"注册后 48 小时内在设置里填码，过期作废。",
+  foot:"这是个人分享页，与 Meta / Muse 官方无关联。代币规则以 Muse 官方为准。",
+  toast_code:"邀请码已复制",toast_msg:"完整口令已复制，去粘贴分享吧",
+  share:"快来试试专属个人 AI 助理 Muse！在加入后 48 小时内到「设置」兑换我的邀请码，我们双方都能各自获得 10 亿枚 Muse 代币。\n代码：WMFYLO\nhttps://muse.ai/join"},
+ "zh-TW":{brand:"Muse 邀請碼",h1:'試試 Muse，<em>雙方各得 10 億代幣</em>',lede:"Muse 是 Meta 推出的個人 AI 助理。用我的邀請碼，你和我都能各自領 10 億枚永久代幣。",
+  mycode:"我的邀請碼",taptocopy:"點這裡複製邀請碼",copycode:"複製邀請碼",copymsg:"複製完整口令",openmuse:"打開 Muse 去兌換",
+  scan:"手機掃碼開啟",warn_b:"48 小時內兌換：",warn_p:"註冊後超過 48 小時就領不到了，記得先兌換再慢慢玩。",
+  how:"怎樣兌換",s1b:"開啟 muse.ai/join 註冊 / 登入。",s1s:"用電郵或 Google 等登入皆可。",
+  s2b:"進「設定 → 一般」。",s2s:"右上角頭像或選單裡進設定。",s3a:"找到「兌換邀請碼」，填入",s3b:"，提交即到帳。",
+  rules:"規則（皆為官方）",r1b:"雙方各得 10 億永久代幣。",r1s:"你兌換我的碼，你和我各自到帳 10 億，永久有效。",
+  r2b:"每個碼最多用 30 次。",r2s:"用一次少一次，趁早兌換更穩。",r3b:"邀請人最多邀 20 人。",r3s:"累計最多 200 億代幣封頂。",
+  r4b:"48 小時時限。",r4s:"註冊後 48 小時內在設定裡填碼，逾期作廢。",
+  foot:"這是個人分享頁，與 Meta / Muse 官方無關聯。代幣規則以 Muse 官方為準。",
+  toast_code:"邀請碼已複製",toast_msg:"完整口令已複製，去貼上分享吧",
+  share:"快來試試專屬個人 AI 助理 Muse！只要在加入後的 48 小時內至「設定」中兌換我的邀請碼，我們雙方都能各自獲得 10 億枚 Muse 代幣。\n代碼：WMFYLO\nhttps://muse.ai/join"},
+ "en":{brand:"Muse invite",h1:'Try Muse — <em>we each get 1 billion tokens</em>',lede:"Muse is Meta's personal AI assistant. Redeem my invite code and we each get 1 billion permanent tokens.",
+  mycode:"My invite code",taptocopy:"Tap here to copy the code",copycode:"Copy code",copymsg:"Copy full message",openmuse:"Open Muse to redeem",
+  scan:"Scan on phone",warn_b:"Redeem within 48 hours: ",warn_p:"after 48 hours from sign-up you can't claim it, so redeem first.",
+  how:"How to redeem",s1b:"Open muse.ai/join and sign up / in.",s1s:"Email or Google login both work.",
+  s2b:"Go to Settings → General.",s2s:"Open Settings from your avatar or the menu.",s3a:"Find “Redeem invite code”, enter",s3b:", and submit.",
+  rules:"Rules (all official)",r1b:"1 billion permanent tokens each.",r1s:"When you redeem my code, you and I each get 1 billion, permanent.",
+  r2b:"Each code works up to 30 times.",r2s:"One use is deducted each time, so redeem early.",r3b:"Up to 20 invites per person.",r3s:"Capped at 20 billion tokens total.",
+  r4b:"48-hour window.",r4s:"Enter the code in Settings within 48 hours of sign-up, or it expires.",
+  foot:"Personal sharing page, not affiliated with Meta / Muse. Token rules per Muse official.",
+  toast_code:"Code copied",toast_msg:"Full message copied — paste to share",
+  share:"Try Muse, your personal AI assistant! Redeem my invite code in Settings within 48 hours of joining and we each get 1 billion Muse tokens.\nCode: WMFYLO\nhttps://muse.ai/join"}
+};
+let lang="zh-CN";
+function render(){
+ const d=I18N[lang];
+ document.documentElement.lang=lang; document.documentElement.setAttribute("data-lang",lang);
+ document.querySelectorAll("[data-t]").forEach(el=>{const k=el.getAttribute("data-t"); if(d[k]!=null){ if(k==="h1") el.innerHTML=d[k]; else el.textContent=d[k];}});
+ document.querySelectorAll(".langs button").forEach(b=>b.setAttribute("aria-selected", b.dataset.lang===lang));
+}
+document.querySelectorAll(".langs button").forEach(b=>b.onclick=()=>{lang=b.dataset.lang; render();});
+let tt;
+function toast(msg){const t=document.getElementById("toast");document.getElementById("toasttext").textContent=msg;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),1900);}
+async function copy(text,msg){try{await navigator.clipboard.writeText(text);}catch(e){const ta=document.createElement("textarea");ta.value=text;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");}catch(_){}ta.remove();}toast(msg);}
+document.getElementById("codecard").onclick=()=>copy(CODE,I18N[lang].toast_code);
+document.getElementById("codecard").onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();copy(CODE,I18N[lang].toast_code);}};
+document.getElementById("copyCode").onclick=e=>{e.stopPropagation();copy(CODE,I18N[lang].toast_code);};
+document.getElementById("copyMsg").onclick=()=>copy(I18N[lang].share,I18N[lang].toast_msg);
+render();
+</script>
+</body>
+</html>
